@@ -1,0 +1,36 @@
+{
+  "name": "md5ify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "browser": "browser.js",
+  "description": "Synchronously return the md5 hex hash of a file path through Node or browserify",
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "dependencies": {
+    "resolve": "^1.1.6",
+    "static-module": "^1.1.2"
+  },
+  "keywords": [
+    "md5",
+    "hash",
+    "file",
+    "browser",
+    "node",
+    "browserify"
+  ],
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/hughsk/md5ify",
+  "bugs": {
+    "url": "https://github.com/hughsk/md5ify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughsk/md5ify.git"
+  }
+}
